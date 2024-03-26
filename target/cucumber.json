@@ -1,0 +1,726 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2024-03-26T01:00:10.211Z",
+        "line": 2,
+        "name": "LGN01 Login Success",
+        "description": "",
+        "id": "login;lgn01-login-success",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 997573000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "Open browser",
+            "match": {
+              "location": "StepDef.Login.openBrowser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3422186300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Open ebay login page",
+            "match": {
+              "location": "StepDef.Login.openEbayLoginPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3575679100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Click sign on navbar",
+            "match": {
+              "location": "StepDef.Login.clickSignOnNavbar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 272443800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Input \"dobutsu27@gmail.com\" email",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"dobutsu27@gmail.com\"",
+                  "offset": 6
+                }
+              ],
+              "location": "StepDef.Login.inputEmail(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1056798300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Click button Continue",
+            "match": {
+              "location": "StepDef.Login.clickButtonContinue()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1157695500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Input \"Test12345.\" password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Test12345.\"",
+                  "offset": 6
+                }
+              ],
+              "location": "StepDef.Login.inputPassword(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1066552400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Click button Sign in",
+            "match": {
+              "location": "StepDef.Login.clickButtonSignIn()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1124040900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Login successfully",
+            "match": {
+              "location": "StepDef.Login.loginSuccessfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-03-26T01:00:22.916Z",
+        "line": 13,
+        "name": "LGN02 Login Failed Wrong Email",
+        "description": "",
+        "id": "login;lgn02-login-failed-wrong-email",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 734264600,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Open browser",
+            "match": {
+              "location": "StepDef.Login.openBrowser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2716606000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Open ebay login page",
+            "match": {
+              "location": "StepDef.Login.openEbayLoginPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2714041800,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Click sign on navbar",
+            "match": {
+              "location": "StepDef.Login.clickSignOnNavbar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 89635000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Input \"wrong@gmail.com\" email",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"wrong@gmail.com\"",
+                  "offset": 6
+                }
+              ],
+              "location": "StepDef.Login.inputEmail(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1166658800,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Click button Continue",
+            "match": {
+              "location": "StepDef.Login.clickButtonContinue()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2177285100,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Login failed wrong email",
+            "match": {
+              "location": "StepDef.Login.loginFailedWrongEmail()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-03-26T01:00:32.518Z",
+        "line": 22,
+        "name": "LGN03 Login Failed Wrong Password",
+        "description": "",
+        "id": "login;lgn03-login-failed-wrong-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 703151400,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Open browser",
+            "match": {
+              "location": "StepDef.Login.openBrowser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2447287300,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Open ebay login page",
+            "match": {
+              "location": "StepDef.Login.openEbayLoginPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2135225300,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Click sign on navbar",
+            "match": {
+              "location": "StepDef.Login.clickSignOnNavbar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 119497000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Input \"dobutsu27@gmail.com\" email",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"dobutsu27@gmail.com\"",
+                  "offset": 6
+                }
+              ],
+              "location": "StepDef.Login.inputEmail(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1197818500,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Click button Continue",
+            "match": {
+              "location": "StepDef.Login.clickButtonContinue()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1107969400,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "Input \"Wrong12345.\" password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Wrong12345.\"",
+                  "offset": 6
+                }
+              ],
+              "location": "StepDef.Login.inputPassword(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1406476600,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "Click button Sign in",
+            "match": {
+              "location": "StepDef.Login.clickButtonSignIn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id\u003d\"errormsg\"]\"}\n  (Session info: chrome\u003d123.0.6312.59)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-Q7GQ2H11\u0027, ip: \u0027192.168.1.16\u0027, os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002717.0.9\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.59, chrome: {chromedriverVersion: 123.0.6312.58 (6b4b19e9dfbb..., userDataDir: C:\\Users\\LEGION~1\\AppData\\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54694}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 4c4f43cc675c2e55b289edc4488eaf32\n*** Element info: {Using\u003dxpath, value\u003d//*[@id\u003d\"errormsg\"]}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat StepDef.Login.loginFailedWrongPass(Login.java:82)\r\n\tat ✽.Login failed wrong pass(file:///D:/RAFLI/TELKOMUNIVERSITY/MAGANG%20PUTI/QA/AutoTest/TechnicalTestMostrans/src/test/resources/Features/Login.feature:30)\r\n",
+              "duration": 1018497500,
+              "status": "failed"
+            },
+            "line": 30,
+            "name": "Login failed wrong pass",
+            "match": {
+              "location": "StepDef.Login.loginFailedWrongPass()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/Login.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2024-03-26T01:00:42.662Z",
+        "line": 2,
+        "name": "SHP01 Search Product From Searchbar",
+        "description": "",
+        "id": "shopping;shp01-search-product-from-searchbar",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 706623000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "Open browser for shopping",
+            "match": {
+              "location": "StepDef.Shopping.openBrowserForShopping()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2532717000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Open ebay home page",
+            "match": {
+              "location": "StepDef.Shopping.openEbayHomePage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4334033400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Input \"Laptop\" product on searchbar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Laptop\"",
+                  "offset": 6
+                }
+              ],
+              "location": "StepDef.Shopping.inputProductOnSearchbar(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1139601000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Product successfully found",
+            "match": {
+              "location": "StepDef.Shopping.productSuccessfullyFound()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-03-26T01:00:51.378Z",
+        "line": 8,
+        "name": "SHP02 Search Product From Category",
+        "description": "",
+        "id": "shopping;shp02-search-product-from-category",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 881876100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Open browser for shopping",
+            "match": {
+              "location": "StepDef.Shopping.openBrowserForShopping()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2393121200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Open ebay home page",
+            "match": {
+              "location": "StepDef.Shopping.openEbayHomePage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 63980500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Click category on the navbar",
+            "match": {
+              "location": "StepDef.Shopping.clickCategoryOnTheNavbar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1575913500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Click \"Shoes\" product on category modal",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Shoes\"",
+                  "offset": 6
+                }
+              ],
+              "location": "StepDef.Shopping.clickProductOnCategoryModal(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1085083700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Product successfully found from category",
+            "match": {
+              "location": "StepDef.Shopping.productSuccessfullyFoundFromCategory()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-03-26T01:00:57.381Z",
+        "line": 15,
+        "name": "SHP03 Search Product From Category Hover",
+        "description": "",
+        "id": "shopping;shp03-search-product-from-category-hover",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 789641300,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Open browser for shopping",
+            "match": {
+              "location": "StepDef.Shopping.openBrowserForShopping()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2888983500,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Open ebay home page",
+            "match": {
+              "location": "StepDef.Shopping.openEbayHomePage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1150261400,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Hover category product",
+            "match": {
+              "location": "StepDef.Shopping.hoverCategoryProduct()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4452356900,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Click \"Apple\" product on category popup",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Apple\"",
+                  "offset": 6
+                }
+              ],
+              "location": "StepDef.Shopping.clickProductOnCategoryPopup(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: expected:\u003cApple\u003e but was:\u003cnull\u003e\r\n\tat org.junit.Assert.fail(Assert.java:89)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:835)\r\n\tat org.junit.Assert.assertEquals(Assert.java:120)\r\n\tat org.junit.Assert.assertEquals(Assert.java:146)\r\n\tat StepDef.Shopping.productSuccessfullyFoundFromCategory(Shopping.java:95)\r\n\tat ✽.Product successfully found from category(file:///D:/RAFLI/TELKOMUNIVERSITY/MAGANG%20PUTI/QA/AutoTest/TechnicalTestMostrans/src/test/resources/Features/Shopping.feature:20)\r\n",
+              "duration": 56107300,
+              "status": "failed"
+            },
+            "line": 20,
+            "name": "Product successfully found from category",
+            "match": {
+              "location": "StepDef.Shopping.productSuccessfullyFoundFromCategory()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-03-26T01:01:06.721Z",
+        "line": 22,
+        "name": "SHP04 Add Quantity Product",
+        "description": "",
+        "id": "shopping;shp04-add-quantity-product",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 886069800,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Open browser for shopping",
+            "match": {
+              "location": "StepDef.Shopping.openBrowserForShopping()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2497428600,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Open ebay home page",
+            "match": {
+              "location": "StepDef.Shopping.openEbayHomePage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1022191500,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Scroll down to today deals",
+            "match": {
+              "location": "StepDef.Shopping.scrollDownToTodayDeals()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1274924700,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Click product",
+            "match": {
+              "location": "StepDef.Shopping.clickProduct()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3971700200,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Input quantity product",
+            "match": {
+              "location": "StepDef.Shopping.inputQuantityProduct()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-03-26T01:01:16.374Z",
+        "line": 30,
+        "name": "SHP05 Add Quantity Product With String",
+        "description": "",
+        "id": "shopping;shp05-add-quantity-product-with-string",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 851997600,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "Open browser for shopping",
+            "match": {
+              "location": "StepDef.Shopping.openBrowserForShopping()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2387252100,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "Open ebay home page",
+            "match": {
+              "location": "StepDef.Shopping.openEbayHomePage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1034825400,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "Scroll down to today deals",
+            "match": {
+              "location": "StepDef.Shopping.scrollDownToTodayDeals()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1177530100,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "Click product",
+            "match": {
+              "location": "StepDef.Shopping.clickProduct()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2917476300,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "Input quantity product with string",
+            "match": {
+              "location": "StepDef.Shopping.inputQuantityProductWithString()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1079778000,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "Appers alert quantity",
+            "match": {
+              "location": "StepDef.Shopping.appersAlertQuantity()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Shopping",
+    "description": "",
+    "id": "shopping",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/Shopping.feature",
+    "tags": []
+  }
+]
